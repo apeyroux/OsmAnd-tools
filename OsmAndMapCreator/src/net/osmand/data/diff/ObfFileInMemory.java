@@ -61,7 +61,7 @@ public class ObfFileInMemory {
 	
 
 	private Map<MapZooms.MapZoomPair, TLongObjectHashMap<BinaryMapDataObject>> mapObjects = new LinkedHashMap<>();
-	TLongObjectHashMap<RouteDataObject> routeObjects;
+	private TLongObjectHashMap<RouteDataObject> routeObjects;
 	private long timestamp = 0;
 	private MapIndex mapIndex = new MapIndex(); 
 
